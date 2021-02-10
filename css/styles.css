@@ -1,7 +1,20 @@
+/* Mobile First */
+
+body {
+    background-color: rgb(218, 218, 218);
+}
+
+
 .title {
-    color: red;
-    text-align: center;
-    font-size: 5em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.google {
+    display: flex;
+    margin-left: 7.2%;
+    margin-top: -15px;
 }
 
 .dog {
@@ -10,8 +23,39 @@
     margin-right: auto;
     border-style: solid;
     border-color: rgb(41, 41, 41);
+    width: 85%;
+    height: auto;
 }
 
-body {
-    background-color: rgb(218, 218, 218);
+
+/* Tablet Second */
+@media  only screen and (min-width: 800px) {
+    body {
+        background-color: rgb(92, 92, 92);
+    }
+    
+    
+    .title  {
+        color: salmon;
+    }
+    
+    .dog {
+        border-color: salmon;
+    }
+}
+
+
+/* Desktop Last */
+@media only screen and (min-width: 1000px) {
+    body {
+        background-color: rgb(39, 39, 39);
+    }
+    
+    .title  {
+        color: mintcream;
+    }
+    
+    .dog {
+        border-color: mintcream;
+    }
 }
