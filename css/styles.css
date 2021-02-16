@@ -12,9 +12,15 @@ body {
 }
 
 .google {
-    display: flex;
+    display: inline-flex;
     margin-left: 7.2%;
-    margin-top: -15px;
+    color:rgb(135, 229, 241);
+}
+
+.treehouse {
+    display: inline-flex;
+    color: greenyellow;
+    margin-left: 20px;
 }
 
 .dog {
