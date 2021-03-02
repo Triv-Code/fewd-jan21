@@ -33,6 +33,10 @@ body {
     height: auto;
 }
 
+ol {
+    color: white;
+    margin-left: 5%;
+}
 
 /* Tablet Second */
 @media  only screen and (min-width: 800px) {
