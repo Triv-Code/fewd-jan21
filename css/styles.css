@@ -31,6 +31,7 @@ body {
     border-color: rgb(41, 41, 41);
     width: 85%;
     height: auto;
+    max-width: 1200px;
 }
 
 ol {
